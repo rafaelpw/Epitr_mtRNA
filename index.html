@@ -15,13 +15,13 @@
 
 <title>Perfil Epitranscriptômico do RNA Mitocondrial (mtRNA)</title>
 
-<script src="perfil_epitranscriptomico_mtRNA_GitHubPages_imagens--1-_files/header-attrs-2.31/header-attrs.js"></script>
-<script src="perfil_epitranscriptomico_mtRNA_GitHubPages_imagens--1-_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="index_files/header-attrs-2.31/header-attrs.js"></script>
+<script src="index_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="perfil_epitranscriptomico_mtRNA_GitHubPages_imagens--1-_files/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
-<script src="perfil_epitranscriptomico_mtRNA_GitHubPages_imagens--1-_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="perfil_epitranscriptomico_mtRNA_GitHubPages_imagens--1-_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="perfil_epitranscriptomico_mtRNA_GitHubPages_imagens--1-_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<link href="index_files/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="index_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="index_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="index_files/bootstrap-3.3.5/shim/respond.min.js"></script>
 <style>h1 {font-size: 34px;}
        h1.title {font-size: 38px;}
        h2 {font-size: 30px;}
@@ -31,11 +31,11 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="perfil_epitranscriptomico_mtRNA_GitHubPages_imagens--1-_files/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="perfil_epitranscriptomico_mtRNA_GitHubPages_imagens--1-_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="perfil_epitranscriptomico_mtRNA_GitHubPages_imagens--1-_files/tocify-1.9.1/jquery.tocify.js"></script>
-<script src="perfil_epitranscriptomico_mtRNA_GitHubPages_imagens--1-_files/navigation-1.1/tabsets.js"></script>
-<script src="perfil_epitranscriptomico_mtRNA_GitHubPages_imagens--1-_files/navigation-1.1/codefolding.js"></script>
+<script src="index_files/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="index_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="index_files/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="index_files/navigation-1.1/tabsets.js"></script>
+<script src="index_files/navigation-1.1/codefolding.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -335,7 +335,7 @@ associação entre diferentes classes de modificação</strong>,
 <strong>dependência estatística entre sítios de uma mesma
 modificação</strong> e <strong>alterações na organização dos perfis
 probabilísticos entre as condições <code>Control</code> e
-<code>SARS-CoV-2 Infected</code></strong>.</p>
+<code>Infected</code></strong>.</p>
 <p>A estratégia analítica é organizada em duas escalas
 complementares:</p>
 <ol style="list-style-type: decimal">
@@ -367,10 +367,10 @@ conjunto experimental foi originalmente produzido por Chang et
 al. (2021) no estudo <em>Transcriptional and epi-transcriptional
 dynamics of SARS-CoV-2 during cellular infection</em>. Neste trabalho
 são comparadas as condições <strong><code>Control</code></strong> e
-<strong><code>SARS-CoV-2 Infected</code></strong>, a partir do
-experimento depositado no BioProject <strong>PRJNA675370</strong>,
-considerando as amostras de Calu-3 correspondentes ao ponto de 48 h
-pós-infecção selecionado para a análise.</p>
+<strong><code>Infected</code></strong>, a partir do experimento
+depositado no BioProject <strong>PRJNA675370</strong>, considerando as
+amostras de Calu-3 correspondentes ao ponto de 48 h pós-infecção
+selecionado para a análise.</p>
 <p>A molécula de RNA nativo sequenciada diretamente pelo nanoporo
 constitui a <strong>unidade observacional molecular</strong> das
 análises apresentadas a seguir. O objetivo desta etapa não é reprocessar
@@ -382,9 +382,10 @@ o sinal elétrico bruto, mas investigar a organização estatística das
 class="section level2" number="1.2">
 <h2><span class="header-section-number">1.2</span> Predições de
 modificações epitranscriptômicas</h2>
-<p>As probabilidades de modificação são provenientes de métodos
-computacionais especializados para dados de DRS. Foram consideradas
-ferramentas diferentes para cada modificação.</p>
+<p>As probabilidades de modificação das três modificações consideradas
+no projeto são provenientes de métodos computacionais especializados
+para dados de DRS. Foram consideradas ferramentas diferentes para cada
+modificação.</p>
 <table>
 <thead>
 <tr class="header">
@@ -394,15 +395,15 @@ ferramentas diferentes para cada modificação.</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">m6A</td>
+<td align="left">- <strong>m6A</strong> — N6-metiladenosina</td>
 <td align="left"><strong>m6Anet</strong></td>
 </tr>
 <tr class="even">
-<td align="left">m5C</td>
-<td align="left"><strong>CHEUI /m6Anet</strong></td>
+<td align="left">- <strong>m5C</strong> — 5-metilcitosina</td>
+<td align="left"><strong>CHEUI</strong></td>
 </tr>
 <tr class="odd">
-<td align="left">Ψ</td>
+<td align="left">- <strong>Ψ</strong> — pseudouridina</td>
 <td align="left"><strong>TandemMod</strong></td>
 </tr>
 </tbody>
@@ -421,17 +422,11 @@ modificação em DRS, incluindo m6A, m5C e pseudouridina (Wu et al.,
 de predição de cada ferramenta a cada modificação (Luo et al.,
 2026).</p>
 <p>Em análises complementares de sensibilidade e de comparação entre
-modificações, também foram produzidas predições de m6A com o TandemMod.
-Como os escores são gerados por modelos distintos, seus valores
-absolutos não são considerados, <em>a priori</em>, probabilidades
-calibradas em uma escala diretamente intercambiável entre
-ferramentas.</p>
-<p>O projeto avalia três modificações:</p>
-<ul>
-<li><strong>m6A</strong> — N6-metiladenosina;</li>
-<li><strong>m5C</strong> — 5-metilcitosina;</li>
-<li><strong>Ψ</strong> — pseudouridina.</li>
-</ul>
+modificações, também foram produzidas predições de m6A com o TandemMod e
+predição de m5C com o m6Anet. Como os escores são gerados por modelos
+distintos, seus valores absolutos não são considerados, <em>a
+priori</em>, probabilidades calibradas em uma escala diretamente
+intercambiável entre ferramentas.</p>
 <p>Foram considerados apenas <strong>alinhamentos com MAPQ &gt;
 20</strong>, conforme atribuído pelo <strong>Minimap2</strong>. Em uma
 interpretação nominal da escala Phred, esse limiar corresponde a uma
@@ -538,27 +533,30 @@ r=
 <div id="correlação-de-spearman" class="section level2" number="3.3">
 <h2><span class="header-section-number">3.3</span> Correlação de
 Spearman</h2>
-<p>Foi utilizada a correlação de Spearman, equivalente à correlação de
-Pearson aplicada aos postos das observações:</p>
+<p>A medida de dependência efetivamente utilizada é a correlação de
+Spearman, equivalente à correlação de Pearson aplicada aos postos das
+observações:</p>
 <p><span class="math display">\[
 \rho_s=\operatorname{cor}\{R(X),R(Y)\}.
 \]</span> O coeficiente <span class="math inline">\(r\)</span> varia
 entre <span class="math inline">\(-1\)</span> e <span
-class="math inline">\(1\)</span>. Valores positivos indicam associação
-linear na mesma direção, enquanto valores negativos indicam associação
-linear em direções opostas. No contexto epitranscriptômico, esses
-padrões são interpretados prioritariamente como <strong>covariação
-positiva</strong> ou <strong>covariação negativa</strong> das
-probabilidades nas moléculas compartilhadas. Quando sustentados por
-evidências adicionais, podem ser compatíveis com coocorrência
-preferencial, exclusão ou estados moleculares alternativos, sem que a
-correlação, isoladamente, estabeleça um mecanismo bioquímico.</p>
+class="math inline">\(1\)</span>. No caso da correlação de Pearson,
+valores positivos indicam associação linear na mesma direção, enquanto
+valores negativos indicam associação linear em direções opostas. No
+contexto epitranscriptômico, esses padrões são interpretados
+prioritariamente como <strong>covariação positiva</strong> ou
+<strong>covariação negativa</strong> das probabilidades nas moléculas
+compartilhadas. Quando sustentados por evidências adicionais, podem ser
+compatíveis com coocorrência preferencial, exclusão ou estados
+moleculares alternativos, sem que a correlação, isoladamente, estabeleça
+um mecanismo bioquímico.</p>
 <p>O coeficiente de Spearman preserva a interpretação direcional do
 sinal, mas quantifica associação monotônica em vez de restringir-se à
 relação linear. Por operar sobre postos, é menos sensível à escala dos
 escores e a valores extremos, sendo particularmente útil quando a
-relação entre as probabilidades de modificação é monotônica, porém não
-adequadamente descrita por uma reta.</p>
+relação entre as probabilidades de modificação apresenta não
+linearidade, conservando algum nível de compatibilidade entre
+postos.</p>
 <div class="resultado">
 <p><strong>Interpretação.</strong> Correlações positivas e negativas são
 tratadas, respectivamente, como evidência de covariação na mesma direção
@@ -702,7 +700,7 @@ visualização</strong>, e não como fronteiras biológicas universais entre
 sítios modificados e não modificados.</p>
 <p>A retenção de sítios com estequiometria intermediária é
 biologicamente plausível. Em um preprint recente, Chan, Barbaric e
-Thomson (2026) observaram, em rRNA durante diferenciação de
+Thomson (2026) observaram, em rRNA, durante diferenciação de
 células-tronco embrionárias humanas, que sítios com níveis
 intermediários de modificação (15–85%) concentravam numerosas alterações
 diferenciais, enquanto sítios raramente modificados (&lt;15%) ou quase
@@ -722,7 +720,8 @@ arestas expressa a magnitude da informação mútua. Essa projeção deve ser
 interpretada como uma visualização contextual da dependência
 estatística: proximidade no desenho bidimensional ou presença de uma
 aresta de MI não constituem evidência, por si sós, de contato físico
-direto ou interação molecular causal.</p>
+direto ou interação molecular causal. São plotadas na respresentação
+estrutural apenas as 20 maiores magnitudes de dependendência.</p>
 <div id="m6a-nd5" class="section level3" number="4.3.1">
 <h3><span class="header-section-number">4.3.1</span> m6A — ND5</h3>
 <p><img src="imagens/MI_m6A_ND5.png" alt="" width="100%" style="display: block; margin: auto;" /></p>
@@ -876,12 +875,6 @@ recebem pseudocontagem, permitindo derivar também versões normalizadas,
 a distância de JS e transformações de similaridade. A interpretação
 comparativa exige que a discretização, a pseudocontagem e a base do
 logaritmo sejam mantidas constantes entre sítios e condições.</p>
-<div class="resultado">
-<p><strong>Reprodutibilidade.</strong> A JS não é recalculada durante a
-renderização deste documento. O documento utiliza objetos de resultados
-previamente gerados, contendo a identificação dos pares de sítios,
-métricas de cobertura e <code>js_divergence</code>.</p>
-</div>
 </div>
 <div id="alteração-da-divergência-entre-control-e-infected-delta-js"
 class="section level1" number="8">
@@ -911,55 +904,37 @@ aproximada da divergência entre as condições.</li>
 number="8.1">
 <h2><span class="header-section-number">8.1</span> Heatmap por
 combinações gênicas</h2>
-<p>O heatmap resume, para cada combinação gênica, a mediana de <span
-class="math inline">\(\Delta JS\)</span> entre os pares de sítios
-correspondentes. A mediana é utilizada como medida robusta de tendência
-central frente à assimetria e a valores extremos. Quando uma figura
-final está disponível, ela é incorporada diretamente; caso contrário, o
-documento reconstrói <strong>apenas a visualização</strong> a partir dos
-objetos <code>.rds</code> de JS, sem retornar às bases em nível de
-<em>read</em>.</p>
 </div>
 </div>
-<div id="representação-circos-da-divergência-de-jensenshannon"
+<div id="representação-da-divergência-de-jensenshannon"
 class="section level1" number="9">
-<h1><span class="header-section-number">9</span> Representação Circos da
+<h1><span class="header-section-number">9</span> Representação da
 divergência de Jensen–Shannon</h1>
-<p>O diagrama Circos sintetiza relações distribucionais de longo alcance
-ao longo do transcriptoma mitocondrial. A rotina foi estruturada para
-que <code>Control</code> e <code>Infected</code> representem <strong>o
-mesmo conjunto de pares</strong> e utilizem <strong>uma escala cromática
-comum</strong>, condição necessária para comparação visual direta entre
-as condições.</p>
+<p>O diagrama circular sintetiza relações distribucionais de longo
+alcance ao longo do transcriptoma mitocondrial. A rotina foi estruturada
+para que <code>Control</code> e <code>Infected</code> representem
+<strong>o mesmo conjunto de pares</strong> e utilizem <strong>uma escala
+cromática comum</strong> para comparação visual direta entre as
+condições.</p>
 <p>Para <code>js_divergence</code>, valores menores indicam maior
 similaridade entre as distribuições marginais, enquanto valores maiores
 indicam maior divergência.</p>
-<p>Quando uma figura previamente exportada está disponível, ela é
-incorporada diretamente. Na sua ausência, a visualização pode ser
-reconstruída a partir dos resultados persistidos de JS mediante a função
-original, sem novo cálculo das divergências.</p>
 <p class="small-note">
 <strong>Circos comparativo de Jensen–Shannon: Control versus
 Infected.</strong>
 </p>
 <p><img src="imagens/Control_Infected_pseU.jpeg" alt="" width="100%" style="display: block; margin: auto;" /></p>
-</div>
-<div id="conclusão" class="section level1" number="10">
-<h1><span class="header-section-number">10</span> Conclusão</h1>
 <p>A estratégia distingue explicitamente dois níveis de informação. Na
 escala <strong>intramolecular</strong>, a correspondência entre as
 mesmas moléculas permite investigar covariação e dependência entre
-sítios por correlação e MI-KSG. Na escala
-<strong>distribucional</strong>, a JS permite comparar perfis marginais
-de probabilidade mesmo quando a cobertura molecular conjunta é
-insuficiente para sustentar o pareamento <em>read-a-read</em>.</p>
-<p>Essa separação reduz o risco de atribuir significado intramolecular a
-métricas que utilizam apenas distribuições marginais e permite vincular
-cada estatística à pergunta que efetivamente responde. Os exemplos
-gráficos apresentados funcionam como síntese dos resultados, enquanto os
-objetos completos permanecem persistidos separadamente para inspeção
-detalhada, reprodução das visualizações e auditoria do fluxo
-analítico.</p>
+sítios por correlação e MI-KSG. Na escala <strong>intergênica</strong>,
+a JS permite comparar perfis marginais de probabilidade mesmo quando a
+cobertura molecular conjunta é insuficiente para sustentar o pareamento
+<em>read-a-read</em>.</p>
+</div>
+<div id="resultados" class="section level1" number="10">
+<h1><span class="header-section-number">10</span> Resultados</h1>
+<p>(Em desenvolvimento)</p>
 </div>
 <div id="referências" class="section level1 unnumbered">
 <h1 class="unnumbered">Referências</h1>
